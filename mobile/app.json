@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "POS",
+    "slug": "pos",
+    "version": "0.1.0",
+    "scheme": "pos",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.pos.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.pos.app"
+    }
+  }
+}

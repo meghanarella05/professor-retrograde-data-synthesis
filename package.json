@@ -1,0 +1,15 @@
+{
+  "name": "pos-ui",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/shared",
+    "web",
+    "mobile"
+  ],
+  "scripts": {
+    "web": "npm --workspace web run dev",
+    "web:build": "npm --workspace web run build",
+    "mobile": "npm --workspace mobile start"
+  }
+}
